@@ -1,0 +1,36 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "ProviderSettingsPageP",
+            "request": "launch",
+            "mainClass": "com.user.view.ProviderSettingsPageP",
+            "projectName": "serviceconnect"
+        },
+        {
+            "type": "java",
+            "name": "NotificationPageP",
+            "request": "launch",
+            "mainClass": "com.user.view.NotificationPageP",
+            "projectName": "serviceconnect"
+        },
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "com.user.Main",
+            "projectName": "serviceconnect",
+            "vmArgs": "--module-path \"C:/javafx-21.0.7_windows-x64-sdk/javafx-sdk-21.0.7/lib\" --add-modules javafx.controls,javafx.fxml"
+        }
+    ]
+}
